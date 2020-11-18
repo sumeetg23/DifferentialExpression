@@ -1,3 +1,6 @@
+# Create by Sumeet Gupta in August 2020 for analysis of subset of cells in the 10x library. Cells were subset based classification identified by cellranger.
+# cellranger identified human and mouse cells. Human cells were used for downstream analysis.
+
 library(Seurat)
 
 data_dir <- "/lab/solexa_public/Weinberg/200718_WIGTC-HISEQ2B_CE57AANXX/cellranger/v4/L21_577_hg38/filtered_feature_bc_matrix/"
